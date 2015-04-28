@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+	
+    <ImageView
+        android:id="@+id/help_bg_mini"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/mini_background_description"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_mini" />
+    
+	<ScrollView 
+	    android:id="@+id/help_scroll_view"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="5dp"
+	    android:background="@drawable/frame" >
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	    	android:background="#00000000" >
+
+	        <TextView
+	            android:id="@+id/help_text_view"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="#00000000"
+	            android:text="@string/help_description"
+	            android:textSize="16sp" >
+
+	        </TextView>
+	    </LinearLayout>
+	    
+	
+	</ScrollView>
+</FrameLayout>

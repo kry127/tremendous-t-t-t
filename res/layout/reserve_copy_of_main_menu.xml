@@ -1,0 +1,154 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bckgr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Game_Activity" >
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:id="@+id/logo"
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+        android:layout_margin="30dp"
+        android:contentDescription="@string/logo_image"
+        >
+    </ImageView>
+    
+    
+    <!-- Кнопка 1 -->
+
+    <LinearLayout
+        android:id="@+id/llStart"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/new_game_bg"
+        android:clipToPadding="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" >
+        
+        <ImageView
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0"
+            android:adjustViewBounds="true"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:onClick="startGame"
+            android:scaleType="fitCenter"
+            android:src="@drawable/new_game"
+            android:contentDescription="@string/new_game_button_imgae" />
+    </LinearLayout>
+    
+    <!-- Кнопка 2 -->
+    <LinearLayout
+        android:id="@+id/llSettings"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/settings_bg"
+        android:clipToPadding="true"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_height="fill_parent"
+            android:layout_width="0dip"
+            android:layout_weight="1" />
+        
+        <ImageView
+            android:id="@+id/btnSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0"
+            android:adjustViewBounds="true"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:onClick="settings"
+            android:scaleType="fitCenter"
+            android:src="@drawable/settings"
+            android:contentDescription="@string/settings_button_image" />
+
+        <View
+            android:layout_height="fill_parent"
+            android:layout_width="0dip"
+            android:layout_weight="1" />
+    </LinearLayout> 
+    
+    <!-- Кнопка 3 -->
+    <LinearLayout
+        android:id="@+id/llQuit"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/quit_bg"
+        android:clipToPadding="true"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_height="fill_parent"
+            android:layout_width="0dip"
+            android:layout_weight="1" />
+        
+        <ImageView
+            android:id="@+id/btnQuit"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="0"
+            android:adjustViewBounds="true"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:onClick="quitGame"
+            android:scaleType="fitCenter"
+            android:src="@drawable/quit"
+            android:contentDescription="@string/quit_button_image" />
+
+        <View
+            android:layout_height="fill_parent"
+            android:layout_width="0dip"
+            android:layout_weight="1" />
+    </LinearLayout>
+    
+    
+    <!-- Кнопка 4 -->
+    <LinearLayout
+        android:id="@+id/llMore"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/more_games_bg"
+        android:clipToPadding="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="28dp" >
+
+        <View
+            android:layout_height="fill_parent"
+            android:layout_width="0dip"
+            android:layout_weight="1" />
+        
+        <ImageView
+            android:id="@+id/more"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="0"
+            android:adjustViewBounds="true"
+            android:baselineAlignBottom="false"
+            android:cropToPadding="false"
+            android:scaleType="fitCenter"
+            android:onClick="moreGames"
+            android:src="@drawable/more_games"
+            android:contentDescription="@string/more_games_button_image" />
+
+        <View
+            android:layout_height="fill_parent"
+            android:layout_width="0dip"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

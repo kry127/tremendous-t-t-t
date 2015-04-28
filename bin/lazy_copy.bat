@@ -1,0 +1,1 @@
+copy tremendous*.apk I:\kry127\tremendous*.apk

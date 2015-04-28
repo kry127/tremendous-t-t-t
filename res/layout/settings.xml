@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/settings_header_image"
+        android:src="@drawable/settings_h" />
+    
+    <CheckBox
+        android:id="@+id/sound"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/audio"
+        android:button="@null"
+        android:drawableRight="@drawable/check_custom"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+	</CheckBox>
+	
+    <CheckBox
+        android:id="@+id/vibro"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/vibro"
+        android:button="@null"
+        android:drawableRight="@drawable/check_custom"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+	</CheckBox>
+	
+    <!-- temporary invisible until next upgrage -->
+    <Spinner
+        android:id="@+id/language_spinner"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:layout_height="0dip" >
+    </Spinner>
+    
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/back_button_image"
+        android:src="@drawable/back"
+        android:onClick="closeSettings" />
+
+</LinearLayout>

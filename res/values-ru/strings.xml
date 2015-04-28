@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General information -->
+    <string name="action_settings">Настройки</string>
+    <string name="gameName">Потрясные Крестики-Нолики</string>
+    <string name="short_description"><![CDATA[Используй свободное время с пользой. Тренируй мозг и веселись одновременно.]]></string>
+    <string name="description"><![CDATA[В нашей жизни всегда есть моменты ожидания, будь то очередь к врачу, очередь в супермаркете или на автомойку. Нужно скоротать время? Тогда это приложение для тебя. Всего несколько мегабайт и куча позитивных эмоций под оригинальную музыку написанную специально для приложения тебе и твоей компании обеспечены. Прояви немного фантазии ведь в Tic-Tac-Toe можно играть как на раздевание так и желания.
+
+Надоела назойливая реклама, которая появляется каждые 20 секунд? Тогда тебе повезло, в наших приложениях нет рекламы и нет платных дополнений!
+
+Качай и становись обладателем легендарной логической игры.]]></string>
+		
+	<!-- Button images content description -->
+	<string name="player_vs_android_button_image">Игрок против Android</string>
+	<string name="player_vs_player_button_image">Игрок против игрока</string>
+	<string name="new_game_button_imgae">Кнопка новая игра</string>
+	<string name="settings_button_image">Кнопка настроек</string>
+	<string name="quit_button_image">Кнопка выхода</string>
+	<string name="more_games_button_image">Кнопка "ещё игры"</string>
+	<string name="yes_button_image">Кнопка да</string>
+	<string name="no_button_image">Кнопка нет</string>
+    <string name="back_button_image">Кнопка назад</string>
+	<string name="question_button_image">Кнопка справки (вопросик).</string>
+	
+	<!-- Other image descriptions -->
+	<string name="mini_background_description">Background for small dialog boxes</string>
+	<string name="player_x_image">Игрок X</string>
+	<string name="player_o_image">Игрок O</string>
+	<string name="logo_image">Логотип</string>
+	
+	<!-- Pure strings -->
+	<string name="more_games_uri"><![CDATA[https://play.google.com/store/apps/developer?id=Mobisoft.company&hl=ru]]></string>
+	<string name="help_description"><![CDATA[Игроки по очереди ставят на свободные клетки поля знаки (один всегда крестики, другой всегда нолики).
+Первый, выстроивший в ряд 3 своих фигуры по вертикали, горизонтали или диагонали, выигрывает.
+Первый ход делает игрок, ставящий крестики.]]>
+	</string>
+</resources>

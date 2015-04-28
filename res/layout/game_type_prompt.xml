@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/new_game_header"
+        android:contentDescription="@string/new_game_header_image" />
+    
+    <ImageView
+        android:id="@+id/player_vs_cpu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:src="@drawable/player_vs_android"
+        android:contentDescription="@string/player_vs_android_button_image"/>
+    
+    <ImageView
+        android:id="@+id/player_vs_player"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:src="@drawable/player_vs_player"
+        android:contentDescription="@string/player_vs_player_button_image" />
+
+</LinearLayout>

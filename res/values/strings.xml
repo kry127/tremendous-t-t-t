@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General information -->
+    <string name="app_name">Tremendous t-t-t</string>
+    <string name="action_settings">Settings</string>
+    <string name="gameName">Tick Tack Toe</string>
+    <string name="creator">Made by Kry127</string>
+    <string name="short_description"><![CDATA[Don\'t waste your free time. Train your brain and rejoice at once.]]></string>
+    <string name="description"><![CDATA[We spend a lot of time of our life on a visit to a doctor, in queue in a supermarket or in a car wash. Do You need to kill some time? Then this application is made for you. In just few megabytes You and your company can take a lot of positive emotions with an original exclusive music in background.]]></string>
+    
+    <!-- Header images content description -->
+    <string name="new_game_header_image">New game header</string>
+    <string name="settings_header_image">Settings header</string>
+	<string name="quit_dialog_header_description">Label that asks "do you really want to quit?"</string>
+		
+	<!-- Button images content description -->
+	<string name="player_vs_android_button_image">Player vs Android</string>
+	<string name="player_vs_player_button_image">Player vs Player</string>
+	<string name="new_game_button_imgae">New game button</string>
+	<string name="settings_button_image">Settings button</string>
+	<string name="quit_button_image">Quit button</string>
+	<string name="more_games_button_image">More games button</string>
+	<string name="yes_button_image">Yes button</string>
+	<string name="no_button_image">No button</string>
+    <string name="back_button_image">Back button</string>
+	<string name="question_button_image">Help image (question).</string>
+	
+	<!-- Other image descriptions -->
+	<string name="mini_background_description">Background for small dialog boxes</string>
+	<string name="player_x_image">Player X</string>
+	<string name="player_o_image">Player O</string>
+	<string name="logo_image">Logo</string>
+	
+	<!-- Pure strings -->
+	<string name="more_games_uri"><![CDATA[https://play.google.com/store/apps/developer?id=Mobisoft.company]]></string>
+	<string name="zero">0</string>
+	<string name="help_description"><![CDATA[Two players put their marks in some free cell turn by turn.
+One player always puts "X", another one stays loyal to "O".
+The first who has got his 3 marks in a row becomes a winner  (no matter vertical, horizontal or diagonal).
+The first move is always performed by "X".]]>
+	</string>
+    <string-array name="language">
+        <item>Русский</item>
+        <item>English</item>
+        <item >Italian</item>
+        <item >Spain</item>
+    </string-array>
+</resources>
